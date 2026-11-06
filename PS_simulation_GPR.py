@@ -81,7 +81,7 @@ plt.rcParams.update({"font.size": 9, "axes.titlesize": 9.5, "axes.labelsize": 9,
 COL = {"blue": "#2a78d6", "orange": "#eb6834", "green": "#1baf7a", "gold": "#eda100", "grey": "#8a8a8a"}
 
 bst.settings.CEPCI = 800                         # CEPCI 2024
-bst.settings.electricity_price = 0.0813           # $/kWh (EIA 2024)
+bst.settings.electricity_price = 0.062           # $/kWh (Li et al)
 bst.preferences.update(flow="kg/hr", T="degK", P="Pa", N=100, composition=False)
 
 #%% Prices and process assumptions (edit here)
